@@ -1,23 +1,57 @@
-# MangaAppAutomationTest
 
-This project automates testing for a Manga Application using Selenium WebDriver and JUnit 5. The following functionalities are covered:
+# Web Automation on MangaAppAutomation Test Website with Selenium JUnit5
 
-Login Functionality:
+## Video Output:
 
-Verifies that the user can log in using valid credentials.
-Checks the presence of the search bar after logging in.
-Manga Search and Display:
 
-Tests search functionality with various manga titles such as "Naruto", "One Piece", and "Seven Deadly Sins".
-Ensures that appropriate results or a "No manga found" message is displayed based on the search input.
-Manga Details Modal:
 
-Validates that clicking on the "Details" link for a manga card opens a modal.
-The modal should display the correct manga details, including an image, name, and summary.
-Confirms that the modal can be closed successfully.
-The tests are executed using Selenium WebDriver with ChromeDriver, and results are validated using JUnit assertions.
 
-Test result:
+## Scenario:
+1. Visit the site: https://myalice-automation-test.netlify.app/
+2.  Do log-in with valid credential
+4. Check the front Page
+5. Click search button
+6. Select the first search result
+7. Validate the search result data in product details page
+
+## Technology and Tool Used:
+- Selenium Webdriver
+- Junit5
+- Java
+- Gradle
+- IntelliJ IDEA 
+- Allure
+
+## How to run this Project:
+- clone this project
+- Hit the following command into the terminal:
+  ```gradle clean test```
+- Generate the report:
+  ```
+  allure generate allure-results --clean -o allure-report
+  ```
+- Serve the report:
+  ```
+  allure serve allure-results
+  ```     
+
+## Allure Report Screenshots:
+
+
+
+
+
+
+
+
+
+## Gradle Report Screenshots:
 ![image](https://github.com/user-attachments/assets/8f6680cc-5f59-47e7-971e-f251a8808931)
+![image](https://github.com/user-attachments/assets/a2045fcc-8d74-4d3a-8c2b-8252c4de5bdc)
+
+
+
+
+
 
 
