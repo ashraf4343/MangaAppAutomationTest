@@ -16,6 +16,8 @@ dependencies {
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.22.0'
     // https://mvnrepository.com/artifact/commons-io/commons-io
     implementation group: 'commons-io', name: 'commons-io', version: '2.16.1'
+ // https://mvnrepository.com/artifact/io.qameta.allure/allure-junit5
+    testImplementation group: 'io.qameta.allure', name: 'allure-junit5', version: '2.29.0'
 
 
 }
